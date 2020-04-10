@@ -24,6 +24,9 @@ public class Calculator {
         return x * x;
         
     }
+    public double power(double x, double y){
+        return Math.pow(x, y);
+    }
     public double root(double x){
         return (Math.sqrt(x));
     }
