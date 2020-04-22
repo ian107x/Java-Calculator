@@ -28,7 +28,12 @@ public class Calculator {
         return Math.pow(x, y);
     }
     public double root(double x){
-        return (Math.sqrt(x));
+        //return (Math.sqrt(x));
+        double f = 1;
+        for(double i = 0; i < 10; i++){
+            f = 0.5*(f + x/f);
+        }
+        return f;
     }
 
 }

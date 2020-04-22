@@ -9,7 +9,7 @@ public class CalculatorDriver {
         System.out.println(calc.modulus(5, 2));
         System.out.println(calc.square(5));
         System.out.println(calc.power(4, 3));
-        System.out.println(calc.root(9.5));
+        System.out.println(calc.root(69));
     }
 
 }
