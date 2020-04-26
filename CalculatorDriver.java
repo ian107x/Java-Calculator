@@ -10,6 +10,7 @@ public class CalculatorDriver {
         System.out.println(calc.square(5));
         System.out.println(calc.power(4, 3));
         System.out.println(calc.root(69));
+        System.out.println(calc.factorial(5));
     }
 
 }
